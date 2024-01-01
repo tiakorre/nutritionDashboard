@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from pymongo import MongoClient
-
+#Git push 
 app = Flask(__name__)
 
 # Connect to MongoDB
@@ -13,3 +13,4 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True)
+print ("water")
